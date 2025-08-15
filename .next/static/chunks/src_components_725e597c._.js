@@ -119,199 +119,178 @@ const iconConfig = [
             className: "text-purple-400 text-3xl"
         }, void 0, false, {
             fileName: "[project]/src/components/HeroSection.tsx",
-            lineNumber: 69,
+            lineNumber: 70,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
         top: '5%',
-        left: '10%'
+        left: '10%',
+        title: '3D Cube',
+        description: 'High quality cube model',
+        image: '/images/cube.png'
     },
     {
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$bs$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BsTag"], {
             className: "text-orange-400 text-3xl"
         }, void 0, false, {
             fileName: "[project]/src/components/HeroSection.tsx",
-            lineNumber: 70,
+            lineNumber: 78,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
         top: '20%',
-        left: '20%'
+        left: '20%',
+        title: 'Tag',
+        description: 'Label your digital assets',
+        image: '/images/tag.png'
     },
     {
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaUserAlt"], {
             className: "text-purple-500 text-3xl"
         }, void 0, false, {
             fileName: "[project]/src/components/HeroSection.tsx",
-            lineNumber: 71,
+            lineNumber: 86,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
         top: '30%',
-        left: '5%'
+        left: '5%',
+        title: 'User',
+        description: 'User info and identity',
+        image: '/images/user.png'
     },
     {
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FiDownload"], {
             className: "text-blue-300 text-3xl"
         }, void 0, false, {
             fileName: "[project]/src/components/HeroSection.tsx",
-            lineNumber: 72,
+            lineNumber: 94,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
         bottom: '45%',
-        left: '25%'
+        left: '25%',
+        title: 'Download',
+        description: 'Fast, secure downloads',
+        image: '/images/download.png'
     },
     {
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FiHeart"], {
             className: "text-red-500 text-3xl"
         }, void 0, false, {
             fileName: "[project]/src/components/HeroSection.tsx",
-            lineNumber: 73,
+            lineNumber: 102,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
         bottom: '35%',
-        left: '10%'
+        left: '10%',
+        title: 'Favorites',
+        description: 'Save what you love',
+        image: '/images/heart.png'
     },
     {
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$ai$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AiFillStar"], {
             className: "text-yellow-500 text-3xl"
         }, void 0, false, {
             fileName: "[project]/src/components/HeroSection.tsx",
-            lineNumber: 74,
+            lineNumber: 110,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
         bottom: '25%',
-        left: '30%'
+        left: '30%',
+        title: 'Starred',
+        description: 'Top-rated assets',
+        image: '/images/star.png'
     },
     {
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaHeadphones"], {
             className: "text-gray-300 text-3xl"
         }, void 0, false, {
             fileName: "[project]/src/components/HeroSection.tsx",
-            lineNumber: 75,
+            lineNumber: 118,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
         bottom: '10%',
-        left: '45%'
+        left: '45%',
+        title: 'Support',
+        description: '24/7 customer service',
+        image: '/images/support.png'
     },
     {
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$bs$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BsGrid"], {
             className: "text-orange-500 text-3xl"
         }, void 0, false, {
             fileName: "[project]/src/components/HeroSection.tsx",
-            lineNumber: 76,
+            lineNumber: 126,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
         bottom: '15%',
-        left: '10%'
+        left: '10%',
+        title: 'Grid',
+        description: 'Visual organization',
+        image: '/images/grid.png'
     },
     {
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FiShoppingCart"], {
             className: "text-green-400 text-3xl"
         }, void 0, false, {
             fileName: "[project]/src/components/HeroSection.tsx",
-            lineNumber: 77,
+            lineNumber: 134,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
         top: '10%',
-        right: '10%'
+        right: '10%',
+        title: 'Cart',
+        description: 'Your selected items',
+        image: '/images/cart.png'
     },
     {
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FiSearch"], {
             className: "text-blue-500 text-3xl"
         }, void 0, false, {
             fileName: "[project]/src/components/HeroSection.tsx",
-            lineNumber: 78,
+            lineNumber: 142,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
         top: '40%',
-        right: '20%'
+        right: '20%',
+        title: 'Search',
+        description: 'Find anything',
+        image: '/images/search.png'
     },
     {
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FiUpload"], {
             className: "text-teal-400 text-3xl"
         }, void 0, false, {
             fileName: "[project]/src/components/HeroSection.tsx",
-            lineNumber: 79,
+            lineNumber: 150,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
         bottom: '35%',
-        right: '10%'
+        right: '10%',
+        title: 'Upload',
+        description: 'Share your files',
+        image: '/images/upload.png'
     },
     {
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$bs$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BsGrid"], {
             className: "text-orange-500 text-3xl"
         }, void 0, false, {
             fileName: "[project]/src/components/HeroSection.tsx",
-            lineNumber: 80,
+            lineNumber: 158,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
         bottom: '15%',
-        right: '15%'
+        right: '15%',
+        title: 'Layout',
+        description: 'Customize layout',
+        image: '/images/layout.png'
     }
 ];
-// Icon configurations for small screen
-const iconConfigSmallScreen = [
-    {
-        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaCube"], {
-            className: "text-purple-400 text-3xl"
-        }, void 0, false, {
-            fileName: "[project]/src/components/HeroSection.tsx",
-            lineNumber: 85,
-            columnNumber: 11
-        }, ("TURBOPACK compile-time value", void 0)),
-        top: '40%',
-        left: '5%'
-    },
-    {
-        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$bs$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BsTag"], {
-            className: "text-orange-400 text-3xl"
-        }, void 0, false, {
-            fileName: "[project]/src/components/HeroSection.tsx",
-            lineNumber: 86,
-            columnNumber: 11
-        }, ("TURBOPACK compile-time value", void 0)),
-        top: '58%',
-        left: '8%'
-    },
-    {
-        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaUserAlt"], {
-            className: "text-purple-500 text-3xl"
-        }, void 0, false, {
-            fileName: "[project]/src/components/HeroSection.tsx",
-            lineNumber: 87,
-            columnNumber: 11
-        }, ("TURBOPACK compile-time value", void 0)),
-        top: '70%',
-        left: '40%'
-    },
-    {
-        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FiHeart"], {
-            className: "text-red-500 text-3xl"
-        }, void 0, false, {
-            fileName: "[project]/src/components/HeroSection.tsx",
-            lineNumber: 88,
-            columnNumber: 11
-        }, ("TURBOPACK compile-time value", void 0)),
-        bottom: '32%',
-        left: '75%'
-    },
-    {
-        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FiDownload"], {
-            className: "text-blue-300 text-3xl"
-        }, void 0, false, {
-            fileName: "[project]/src/components/HeroSection.tsx",
-            lineNumber: 89,
-            columnNumber: 11
-        }, ("TURBOPACK compile-time value", void 0)),
-        bottom: '50%',
-        left: '85%'
-    }
-];
+const iconConfigSmallScreen = iconConfig.slice(0, 5); // Optional simplification
 function HeroSection() {
     _s1();
     const exploreRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
     const [scrollY, setScrollY] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
     const [buttonCenter, setButtonCenter] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
-    // Detect small screen width
     const [isSmallScreen, setIsSmallScreen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [hoverIndex, setHoverIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "HeroSection.useEffect": ()=>{
             const handleResize = {
@@ -319,14 +298,13 @@ function HeroSection() {
                     setIsSmallScreen(window.innerWidth <= 768);
                 }
             }["HeroSection.useEffect.handleResize"];
-            handleResize(); // initial check
+            handleResize();
             window.addEventListener('resize', handleResize);
             return ({
                 "HeroSection.useEffect": ()=>window.removeEventListener('resize', handleResize)
             })["HeroSection.useEffect"];
         }
     }["HeroSection.useEffect"], []);
-    // Track scroll position
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "HeroSection.useEffect": ()=>{
             const handleScroll = {
@@ -338,7 +316,6 @@ function HeroSection() {
             })["HeroSection.useEffect"];
         }
     }["HeroSection.useEffect"], []);
-    // Get center position of the explore button
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "HeroSection.useEffect": ()=>{
             if (exploreRef.current) {
@@ -352,7 +329,6 @@ function HeroSection() {
     }["HeroSection.useEffect"], [
         scrollY
     ]);
-    // Choose icons to show based on screen size
     const iconsToShow = isSmallScreen ? iconConfigSmallScreen : iconConfig;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "relative h-[100vh] text-white flex flex-col items-center justify-center text-center overflow-hidden px-6",
@@ -371,7 +347,7 @@ function HeroSection() {
                         speed: 60
                     }, void 0, false, {
                         fileName: "[project]/src/components/HeroSection.tsx",
-                        lineNumber: 145,
+                        lineNumber: 218,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -380,14 +356,14 @@ function HeroSection() {
                             "Your one-stop digital platform for 3D models and digital creations. ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                 fileName: "[project]/src/components/HeroSection.tsx",
-                                lineNumber: 153,
+                                lineNumber: 226,
                                 columnNumber: 79
                             }, this),
                             "Join our community of creators and collectors today."
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/HeroSection.tsx",
-                        lineNumber: 152,
+                        lineNumber: 225,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -396,13 +372,13 @@ function HeroSection() {
                         children: "Explore all products"
                     }, void 0, false, {
                         fileName: "[project]/src/components/HeroSection.tsx",
-                        lineNumber: 156,
+                        lineNumber: 229,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/HeroSection.tsx",
-                lineNumber: 140,
+                lineNumber: 213,
                 columnNumber: 7
             }, this),
             iconsToShow.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -413,6 +389,8 @@ function HeroSection() {
                         right: 'right' in item ? item.right : undefined,
                         bottom: 'bottom' in item ? item.bottom : undefined
                     },
+                    onMouseEnter: ()=>setHoverIndex(index),
+                    onMouseLeave: ()=>setHoverIndex(null),
                     animate: {
                         x: scrollY > 50 && buttonCenter ? buttonCenter.x - window.innerWidth * (item.left ? parseFloat(item.left) / 100 : 1 - ('right' in item && item.right ? parseFloat(item.right) / 100 : 0)) - 32 : 0,
                         y: scrollY > 50 && buttonCenter ? buttonCenter.y - window.innerHeight * (item.top ? parseFloat(item.top) / 100 : 1 - ('bottom' in item && item.bottom ? parseFloat(item.bottom) / 100 : 0)) - 32 : 0,
@@ -423,20 +401,38 @@ function HeroSection() {
                             ease: 'easeInOut'
                         }
                     },
-                    children: item.icon
-                }, index, false, {
+                    children: [
+                        item.icon,
+                        hoverIndex === index && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "absolute -top-2 left-16 z-50",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(TooltipCard, {
+                                title: item.title,
+                                description: item.description,
+                                image: item.image
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/HeroSection.tsx",
+                                lineNumber: 277,
+                                columnNumber: 15
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/HeroSection.tsx",
+                            lineNumber: 276,
+                            columnNumber: 13
+                        }, this)
+                    ]
+                }, index, true, {
                     fileName: "[project]/src/components/HeroSection.tsx",
-                    lineNumber: 166,
+                    lineNumber: 239,
                     columnNumber: 9
                 }, this))
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/HeroSection.tsx",
-        lineNumber: 130,
+        lineNumber: 204,
         columnNumber: 5
     }, this);
 }
-_s1(HeroSection, "139YIZ4k5NKeVv/+SFwBfSV2rtc=");
+_s1(HeroSection, "WkKzAi6gJzgfaN0euiwbs19RcWA=");
 _c1 = HeroSection;
 var _c, _c1;
 __turbopack_context__.k.register(_c, "TypingEffect");
