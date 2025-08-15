@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Projects/Intern/Interview-2/my-app/src/app/page.tsx"],"sourcesContent":["\n\nexport default function Home() {\n  return (\n    <div >\n    <h1 className=\"text-3xl font-bold underline \">\n      Hello world!\n    </h1>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAEe,SAAS;IACtB,qBACE,8OAAC;kBACD,cAAA,8OAAC;YAAG,WAAU;sBAAgC;;;;;;;;;;;AAKlD","debugId":null}}]
-}
