@@ -1,30 +1,35 @@
 'use client';
 
+import Image from 'next/image';
 import { FaDiscord } from 'react-icons/fa';
 import { FiUpload, FiSearch, FiUser } from 'react-icons/fi';
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 bg-zinc-900 text-white">
+    <nav className="fixed top-0 left-0 right-0 z-50 flex gap-4 items-center justify-between px-4 py-3 bg-zinc-900 text-white">
       {/* Left: Logo + divider */}
       <div className="flex items-center gap-3">
-        <h1 className="text-3xl font-bold bg-gradient-to-r from-indigo-500 to-purple-500 text-transparent bg-clip-text">
-          3dimli
-        </h1>
-        <span className="text-xs text-gray-400">BETA 1.0.1</span>
-        <div className="h-6 w-px bg-gray-700 mx-4" />
+        <Image
+          src="/images/3DIMLI-LOGO.svg"
+          alt="3DIMLI Logo"
+          width={120}     // adjust as needed
+          height={40}     // adjust as needed
+        />
+        <span className="text-xs text-gray-400 hidden md:inline">BETA 1.0.1</span>
+        <div className="h-6 w-px bg-gray-700 mx-4 hidden md:block" />
       </div>
 
-      {/* Middle: Navigation Links */}
-      <ul className="flex gap-6 font-medium text-sm text-white">
+
+      {/* Middle: Navigation Links - hidden on small screens */}
+      <ul className="hidden md:flex gap-6 font-medium text-sm text-white">
         <li className="cursor-pointer hover:text-gray-300">Home</li>
         <li className="cursor-pointer hover:text-gray-300">Discover</li>
         <li className="cursor-pointer hover:text-gray-300">Features</li>
         <li className="cursor-pointer hover:text-gray-300">Pricing</li>
       </ul>
 
-      {/* Search bar */}
-      <div className="flex items-center bg-[#1a1a1a] border border-gray-700 px-4 py-2 rounded-full w-[400px] ml-6">
+      {/* Search bar - always visible, but adjust width for small screens */}
+      <div className="flex items-center bg-[#1a1a1a] border border-gray-700 px-4 py-2 rounded-full w-full md:w-[400px] mt-3 md:mt-0 md:ml-6">
         <input
           type="text"
           placeholder="Search..."
@@ -34,8 +39,8 @@ export default function Navbar() {
         <FiSearch className="text-gray-400" />
       </div>
 
-      {/* Right buttons */}
-      <div className="flex items-center gap-3 ml-6">
+      {/* Right buttons - hidden on small screens */}
+      <div className="hidden md:flex items-center gap-3 ml-6">
         <button className="flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[#0a1a4f] to-[#122b4f] text-sm hover:opacity-90 transition">
           <FaDiscord className="text-white" />
           <span className="text-white">Discord</span>
