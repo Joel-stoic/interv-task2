@@ -12,8 +12,8 @@ import { FaUserAlt, FaHeadphones, FaCube } from 'react-icons/fa';
 import { BsTag, BsGrid } from 'react-icons/bs';
 import { AiFillStar } from 'react-icons/ai';
 import { motion } from 'framer-motion';
+import TooltipCard from './TooltipCard';
 
-// Typing effect component
 const TypingEffect: React.FC<{ texts: string[]; speed?: number }> = ({
   texts,
   speed = 100,
@@ -50,7 +50,7 @@ const TypingEffect: React.FC<{ texts: string[]; speed?: number }> = ({
 
   return (
     <div className="h-[140px] flex items-center justify-center">
-      <h1 className="text-4xl md:text-6xl font-bold leading-tight text-center">
+      <h1 className="text-2xl md:text-6xl font-bold leading-tight text-center">
         {displayedText}
         <span
           className={`inline-block w-2 ml-1 align-bottom ${
@@ -64,55 +64,172 @@ const TypingEffect: React.FC<{ texts: string[]; speed?: number }> = ({
   );
 };
 
-// Icon configurations for large screen
+// Full icon config for large screens
 const iconConfig = [
-  { icon: <FaCube className="text-purple-400 text-3xl" />, top: '5%', left: '10%' },
-  { icon: <BsTag className="text-orange-400 text-3xl" />, top: '20%', left: '20%' },
-  { icon: <FaUserAlt className="text-purple-500 text-3xl" />, top: '30%', left: '5%' },
-  { icon: <FiDownload className="text-blue-300 text-3xl" />, bottom: '45%', left: '25%' },
-  { icon: <FiHeart className="text-red-500 text-3xl" />, bottom: '35%', left: '10%' },
-  { icon: <AiFillStar className="text-yellow-500 text-3xl" />, bottom: '25%', left: '30%' },
-  { icon: <FaHeadphones className="text-gray-300 text-3xl" />, bottom: '10%', left: '45%' },
-  { icon: <BsGrid className="text-orange-500 text-3xl" />, bottom: '15%', left: '10%' },
-  { icon: <FiShoppingCart className="text-green-400 text-3xl" />, top: '10%', right: '10%' },
-  { icon: <FiSearch className="text-blue-500 text-3xl" />, top: '40%', right: '20%' },
-  { icon: <FiUpload className="text-teal-400 text-3xl" />, bottom: '35%', right: '10%' },
-  { icon: <BsGrid className="text-orange-500 text-3xl" />, bottom: '15%', right: '15%' },
+  {
+    icon: <FaCube className="text-purple-400 text-3xl" />,
+    top: '5%',
+    left: '10%',
+    title: '3D Cube',
+    description: 'High quality cube model',
+    image: '/images/cube.png',
+  },
+  {
+    icon: <BsTag className="text-orange-400 text-3xl" />,
+    top: '20%',
+    left: '20%',
+    title: 'Tag',
+    description: 'Label your digital assets',
+    image: '/images/tag.png',
+  },
+  {
+    icon: <FaUserAlt className="text-purple-500 text-3xl" />,
+    top: '30%',
+    left: '5%',
+    title: 'User',
+    description: 'User info and identity',
+    image: '/images/user.png',
+  },
+  {
+    icon: <FiDownload className="text-blue-300 text-3xl" />,
+    bottom: '45%',
+    left: '25%',
+    title: 'Download',
+    description: 'Fast, secure downloads',
+    image: '/images/download.png',
+  },
+  {
+    icon: <FiHeart className="text-red-500 text-3xl" />,
+    bottom: '35%',
+    left: '10%',
+    title: 'Favorites',
+    description: 'Save what you love',
+    image: '/images/heart.png',
+  },
+  {
+    icon: <AiFillStar className="text-yellow-500 text-3xl" />,
+    bottom: '25%',
+    left: '30%',
+    title: 'Starred',
+    description: 'Top-rated assets',
+    image: '/images/star.png',
+  },
+  {
+    icon: <FaHeadphones className="text-gray-300 text-3xl" />,
+    bottom: '10%',
+    left: '45%',
+    title: 'Support',
+    description: '24/7 customer service',
+    image: '/images/support.png',
+  },
+  {
+    icon: <BsGrid className="text-orange-500 text-3xl" />,
+    bottom: '15%',
+    left: '10%',
+    title: 'Grid',
+    description: 'Visual organization',
+    image: '/images/grid.png',
+  },
+  {
+    icon: <FiShoppingCart className="text-green-400 text-3xl" />,
+    top: '10%',
+    right: '10%',
+    title: 'Cart',
+    description: 'Your selected items',
+    image: '/images/cart.png',
+  },
+  {
+    icon: <FiSearch className="text-blue-500 text-3xl" />,
+    top: '40%',
+    right: '20%',
+    title: 'Search',
+    description: 'Find anything',
+    image: '/images/search.png',
+  },
+  {
+    icon: <FiUpload className="text-teal-400 text-3xl" />,
+    bottom: '35%',
+    right: '10%',
+    title: 'Upload',
+    description: 'Share your files',
+    image: '/images/upload.png',
+  },
+  {
+    icon: <BsGrid className="text-orange-500 text-3xl" />,
+    bottom: '15%',
+    right: '15%',
+    title: 'Layout',
+    description: 'Customize layout',
+    image: '/images/layout.png',
+  },
 ];
 
-// Icon configurations for small screen
+// ✅ Separate layout for mobile (smaller screen) — adjust top/left for better spacing
 const iconConfigSmallScreen = [
-  { icon: <FaCube className="text-purple-400 text-3xl" />, top: '40%', left: '5%' },
-  { icon: <BsTag className="text-orange-400 text-3xl" />, top: '58%', left: '8%' },
-  { icon: <FaUserAlt className="text-purple-500 text-3xl" />, top: '70%', left: '40%' },
-  { icon: <FiHeart className="text-red-500 text-3xl" />, bottom: '32%', left: '75%' },
-  { icon: <FiDownload className="text-blue-300 text-3xl" />, bottom: '50%', left: '85%' },
+  {
+    icon: <FaCube className="text-purple-400 text-2xl" />,
+    top: '25%',
+    left: '10%',
+    title: '3D Cube',
+    description: 'High quality cube model',
+    image: '/images/cube.png',
+  },
+  {
+    icon: <BsTag className="text-orange-400 text-2xl" />,
+    top: '58%',
+    left: '10%',
+    title: 'Tag',
+    description: 'Label your digital assets',
+    image: '/images/tag.png',
+  },
+  {
+    icon: <FaUserAlt className="text-purple-500 text-2xl" />,
+    top: '58%',
+    left: '75%',
+    title: 'User',
+    description: 'User info and identity',
+    image: '/images/user.png',
+  },
+  {
+    icon: <FiDownload className="text-blue-300 text-2xl" />,
+    top: '75%',
+    left: '40%',
+    title: 'Download',
+    description: 'Fast, secure downloads',
+    image: '/images/download.png',
+  },
+  {
+    icon: <FiHeart className="text-red-500 text-2xl" />,
+    top: '25%',
+    left: '75%',
+    title: 'Favorites',
+    description: 'Save what you love',
+    image: '/images/heart.png',
+  },
 ];
 
 export default function HeroSection() {
   const exploreRef = useRef<HTMLButtonElement>(null);
   const [scrollY, setScrollY] = useState(0);
   const [buttonCenter, setButtonCenter] = useState<{ x: number; y: number } | null>(null);
-
-  // Detect small screen width
   const [isSmallScreen, setIsSmallScreen] = useState(false);
+  const [hoverIndex, setHoverIndex] = useState<number | null>(null);
+
   useEffect(() => {
     const handleResize = () => {
       setIsSmallScreen(window.innerWidth <= 768);
     };
-    handleResize(); // initial check
+    handleResize();
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  // Track scroll position
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Get center position of the explore button
   useEffect(() => {
     if (exploreRef.current) {
       const rect = exploreRef.current.getBoundingClientRect();
@@ -123,7 +240,6 @@ export default function HeroSection() {
     }
   }, [scrollY]);
 
-  // Choose icons to show based on screen size
   const iconsToShow = isSmallScreen ? iconConfigSmallScreen : iconConfig;
 
   return (
@@ -136,69 +252,77 @@ export default function HeroSection() {
         `,
       }}
     >
-      {/* Hero Content */}
       <div
-        className={`z-10 max-w-2xl w-full flex flex-col items-center justify-center ${
-          isSmallScreen ? 'pb-20' : ''
-        }`}
-      >
-        <TypingEffect
-          texts={[
-            'Instant Payouts, Full Control, No Limits',
-            'Buy Once, Download Anytime, Keep Forever',
-          ]}
-          speed={60}
-        />
-        <p className="text-gray-400 mb-6 text-sm md:text-base">
-          Your one-stop digital platform for 3D models and digital creations. <br />
-          Join our community of creators and collectors today.
-        </p>
-        <button
-          ref={exploreRef}
-          className="bg-gradient-to-r from-gray-700 to-gray-900 text-white px-6 py-3 rounded-full hover:scale-105 transition relative z-20"
-        >
-          Explore all products
-        </button>
-      </div>
+  className={`z-10 w-full max-w-xl flex flex-col items-center justify-center text-center ${
+    isSmallScreen ? 'pb-12' : ''
+  }`}
+>
+  <TypingEffect
+    texts={[
+      'Instant Payouts, Full Control, No Limits',
+      'Buy Once, Download Anytime, Keep Forever',
+    ]}
+    speed={60}
+  />
 
-      {/* Animated Icons */}
+  <p className="text-gray-400 mb-5 text-xs sm:text-sm md:text-base leading-relaxed px-2 sm:px-4">
+    Your one-stop digital platform for 3D models and digital creations. <br />
+    Join our community of creators and collectors today.
+  </p>
+
+  <button
+    ref={exploreRef}
+    className="bg-gradient-to-r from-gray-700 to-gray-900 text-white text-sm sm:text-base px-5 py-2 sm:px-6 sm:py-3 rounded-full hover:scale-105 transition relative z-20"
+  >
+    Explore all products
+  </button>
+</div>
+
+
+      {/* Animated Icons with Tooltip */}
       {iconsToShow.map((item, index) => (
         <motion.div
-  key={index}
-  className="absolute w-16 h-16 rounded-full bg-white/10 flex items-center justify-center shadow-xl backdrop-blur-md"
-  style={{
-    top: item.top,
-    left: item.left,
-    right: 'right' in item ? item.right : undefined,
-    bottom: 'bottom' in item ? item.bottom : undefined,
-  }}
-  animate={{
-    x:
-      scrollY > 50 && buttonCenter
-        ? buttonCenter.x -
-          window.innerWidth *
-            (item.left
-              ? parseFloat(item.left) / 100
-              : 1 - ('right' in item && item.right ? parseFloat(item.right) / 100 : 0)) -
-          32
-        : 0,
-    y:
-      scrollY > 50 && buttonCenter
-        ? buttonCenter.y -
-          window.innerHeight *
-            (item.top
-              ? parseFloat(item.top) / 100
-              : 1 - ('bottom' in item && item.bottom ? parseFloat(item.bottom) / 100 : 0)) -
-          32
-        : 0,
-    opacity: scrollY > 50 ? 0 : 1,
-    scale: scrollY > 50 ? 0.3 : 1,
-    transition: { duration: 1, ease: 'easeInOut' },
-  }}
->
-  {item.icon}
-</motion.div>
-
+          key={index}
+          className="absolute w-14 h-14 rounded-full bg-white/10 flex items-center justify-center shadow-xl backdrop-blur-md"
+          style={{
+            top: item.top,
+            left: item.left,
+            right: 'right' in item ? item.right : undefined,
+            bottom: 'bottom' in item ? item.bottom : undefined,
+          }}
+          onMouseEnter={() => setHoverIndex(index)}
+          onMouseLeave={() => setHoverIndex(null)}
+          animate={{
+            x:
+              scrollY > 50 && buttonCenter
+                ? buttonCenter.x -
+                    window.innerWidth *
+                      (item.left
+                        ? parseFloat(item.left) / 100
+                        : 1 - ('right' in item && item.right ? parseFloat(item.right) / 100 : 0)) -
+                    28
+                : 0,
+            y:
+              scrollY > 50 && buttonCenter
+                ? buttonCenter.y -
+                    window.innerHeight *
+                      (item.top
+                        ? parseFloat(item.top) / 100
+                        : 1 - ('bottom' in item && item.bottom ? parseFloat(item.bottom) / 100 : 0)) -
+                    28
+                : 0,
+            opacity: scrollY > 50 ? 0 : 1,
+            scale: scrollY > 50 ? 0.3 : 1,
+            transition: { duration: 1, ease: 'easeInOut' },
+          }}
+        >
+          {item.icon}
+          {hoverIndex === index && (
+            <div className="absolute -top-2 left-20 z-50">
+              <TooltipCard title={item.title} description={item.description} />
+            </div>
+          )}
+        </motion.div>
       ))}
     </section>
   );
