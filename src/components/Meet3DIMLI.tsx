@@ -84,7 +84,7 @@ export default function MeetPlatform() {
     animate="visible"
     variants={containerVariants}
 >
-    <div className="flex flex-wrap justify-between items-start gap-y-6 border-y border-orange-400 py-4">
+    <div className="flex flex-wrap justify-between items-start gap-y-6  py-4">
         {['Global', 'Earnings', 'Support'].map((title, idx) => (
             <motion.div
                 key={title}
