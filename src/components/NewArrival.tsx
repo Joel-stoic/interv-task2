@@ -33,7 +33,7 @@ const products: Product[] = [
         type: '3D Model',
         price: '$9.99',
         image: '/images/lounge.jpg',
-        profile:'/profile/profile1.png',
+        profile: '/profile/profile1.png',
         likes: 4,
     },
     {
@@ -73,14 +73,13 @@ const NewArrival: FC = () => {
                     </button>
                 </div>
 
-                {/* Flex Layout */}
-                <div className="flex flex-wrap justify-between gap-2">
+                {/* Grid Layout */}
+                <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
                     {products.map((product, index) => (
                         <div
-  key={index}
-  className="bg-gradient-to-r from-white/15 to-black rounded-xl p-4 group relative hover:shadow-lg transition-all min-h-[23rem] md:min-h-[30rem] flex flex-col justify-between w-[49%] sm:w-[48%] md:w-[48%] lg:w-[24%]"
->
-
+                            key={index}
+                            className="bg-gradient-to-r from-white/15 to-black rounded-xl p-4 group relative hover:shadow-lg transition-all min-h-[23rem] md:min-h-[30rem] flex flex-col justify-between"
+                        >
                             {/* Top Content */}
                             <div>
                                 <div className="flex items-center mb-1 relative gap-1">
@@ -164,14 +163,11 @@ const NewArrival: FC = () => {
                                         <FaCartShopping className="text-sm" />
                                         Add to Cart
                                     </button>
-
-
-
                                 </div>
                             </div>
 
                             {/* Bottom Stats */}
-                            <div className="flex items-center justify-between text-gray-400 text-sm">
+                            <div className="flex items-center justify-between text-gray-400 text-sm mt-3">
                                 <div className="flex items-center gap-4">
                                     <span className="flex items-center gap-1">
                                         <FaHeart className="text-sm" />

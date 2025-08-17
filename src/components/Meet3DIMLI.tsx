@@ -79,33 +79,33 @@ export default function MeetPlatform() {
 
             {/* Stats Section */}
             <motion.div
-                className="mt-24 max-w-5xl mx-auto text-center gap-8
-             flex justify-center items-center space-x-8
-             md:grid md:grid-cols-3 md:space-x-0"
-                initial="hidden"
-                animate="visible"
-                variants={containerVariants}
+    className="mt-24 mx-auto w-full max-w-6xl px-4 text-center"
+    initial="hidden"
+    animate="visible"
+    variants={containerVariants}
+>
+    <div className="flex flex-wrap justify-between items-start gap-y-6 border-y border-orange-400 py-4">
+        {['Global', 'Earnings', 'Support'].map((title, idx) => (
+            <motion.div
+                key={title}
+                className="w-full sm:w-1/3 px-4 border-orange-400 sm:border-r last:border-none"
+                variants={fadeInUp}
             >
-                {['Global', 'Earnings', 'Support'].map((title, idx) => (
-                    <motion.div
-                        key={title}
-                        className="relative flex flex-col items-center md:block"
-                        variants={fadeInUp}
-                    >
-                        <h3 className="text-3xl font-bold">{title}</h3>
-                        <p className="text-orange-400 mt-1">
-                            {title === 'Global' && 'For creators worldwide.'}
-                            {title === 'Earnings' && 'Keep 100% of what you earn.'}
-                            {title === 'Support' && "We've got your back."}
-                        </p>
-
-                        {/* Vertical line on small screens except last */}
-                        {idx < 2 && (
-                            <div className="absolute right-0 top-1/2 transform -translate-y-1/2 h-10 border-r border-orange-400 md:hidden"></div>
-                        )}
-                    </motion.div>
-                ))}
+                <h3 className="text-xl font-bold">{title}</h3>
+                <p className="text-orange-400 mt-1 text-sm">
+                    {title === 'Global' && 'For creators worldwide.'}
+                    {title === 'Earnings' && 'Keep 100% of what you earn.'}
+                    {title === 'Support' && "We've got your back."}
+                </p>
             </motion.div>
+        ))}
+    </div>
+</motion.div>
+
+
+
+
+
 
 
 
