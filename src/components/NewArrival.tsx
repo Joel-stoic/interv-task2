@@ -167,8 +167,8 @@ const NewArrival: FC = () => {
                             </div>
 
                             {/* Bottom Stats */}
-                            <div className="flex items-center justify-between text-gray-400 text-sm mt-3">
-                                <div className="flex items-center gap-4">
+                            <div className="flex items-center justify-center text-gray-400 text-sm mt-3">
+                                <div className="flex items-center gap-2">
                                     <span className="flex items-center gap-1">
                                         <FaHeart className="text-sm" />
                                         {product.likes}
@@ -176,8 +176,9 @@ const NewArrival: FC = () => {
                                     <FaCommentDots className="text-sm" />
                                     <FaLink className="text-sm" />
                                     <FaDownload className="text-sm" />
+                                    <span className="text-green-400 font-bold">{product.price}</span>
                                 </div>
-                                <span className="text-green-400 font-bold">{product.price}</span>
+                                
                             </div>
                         </div>
                     ))}
