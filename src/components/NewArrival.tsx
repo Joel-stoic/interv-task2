@@ -61,17 +61,19 @@ const NewArrival: FC = () => {
         <section className="bg-black text-white py-12 px-6">
             <div className="w-auto mx-auto">
                 {/* Header */}
-                <div className="flex justify-between items-center mb-8">
-                    <div>
-                        <h2 className="text-4xl font-bold">New Arrivals</h2>
+                <div className="flex flex-col md:flex-row justify-between items-center mb-20 m-5">
+                    <div className="text-center md:text-left">
+                        <h2 className="text-2xl md:text-4xl font-bold">New Arrivals</h2>
                         <p className="text-gray-400 mt-1">
                             Discover the newest arrivals on 3DIMLI.
                         </p>
                     </div>
-                    <button className="border border-white text-white py-2 px-5 rounded-full hover:bg-white hover:text-black transition">
+                    <button className="mt-4 md:mt-0 border border-white text-white py-2 px-5 rounded-full hover:bg-white hover:text-black transition">
                         View All
                     </button>
                 </div>
+
+
 
                 {/* Grid Layout */}
                 <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -178,7 +180,7 @@ const NewArrival: FC = () => {
                                     <FaDownload className="text-sm" />
                                     <span className="text-green-400 font-bold">{product.price}</span>
                                 </div>
-                                
+
                             </div>
                         </div>
                     ))}
